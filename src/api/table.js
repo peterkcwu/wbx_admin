@@ -7,3 +7,11 @@ export function getList(params) {
     params
   })
 }
+
+export function getRankList(params) {
+  return request({
+    url: '/vue-admin-template/rank/list',
+    method: 'get',
+    params
+  })
+}
